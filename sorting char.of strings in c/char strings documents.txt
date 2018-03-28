@@ -1,0 +1,16 @@
+A char variable is actually an 8-bit integral value. It will have values from 0 to 255. These are ASCII codes. 0 stands for the C-null character, and 255 stands for an empty symbol.
+
+So, when you write the following assignment:
+
+char a = 'a'; 
+It is the same thing as:
+
+char a = 97;
+So, you can compare two char variables using the >, <, ==, <=, >= operators:
+
+char a = 'a';
+char b = 'b';
+
+if( a < b ) printf("%c is smaller than %c", a, b);
+if( a > b ) printf("%c is smaller than %c", a, b);
+if( a == b ) printf("%c is equal to %c", a, b);
